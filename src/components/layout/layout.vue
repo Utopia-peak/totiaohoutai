@@ -16,7 +16,7 @@
         <span slot="title">首页</span>
       </el-menu-item>
 
- <el-menu-item index="2">
+ <el-menu-item index="/content">
         <i class="el-icon-setting"></i>
         <span slot="title">内容管理</span>
       </el-menu-item>
@@ -152,7 +152,7 @@ methods:{
 .el-main{
         width: 100%;
         height: 100%;
-        background-color: #8B8B83;
+        background-color:#E6E6FA;
 }
 }
 

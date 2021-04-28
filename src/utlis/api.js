@@ -6,7 +6,7 @@ const request = axios.create({
 
 request.interceptors.request.use(function(config){
         const toks =JSON.parse(window.localStorage.getItem('token'))
-        console.log(config)
+
         if(toks){
                 config.headers.Authorization=`Bearer ${toks}`
         }

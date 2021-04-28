@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import login from '@/components/login/login'
 import home from '@/components/home/home'
 import layout from '@/components/layout/layout'
+import content from '@/components/content/content.vue'
 
 Vue.use(VueRouter)
 
@@ -14,6 +15,9 @@ const routes = [
       children:[
         {
           path:'',name:'home',component:home
+        },
+        {
+          path:'/content',component:content
         }
       ]
   },
